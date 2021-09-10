@@ -3,7 +3,7 @@ import jjgame
 import globalvaribles
 import main
 
-
+#game over screen upon death of player character
 def game_over():
     yes = ["yes", "y"]
     time.sleep(3)
