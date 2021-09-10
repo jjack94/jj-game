@@ -1,7 +1,7 @@
 import jjgame
 import globalvaribles
 
-# begin game 
+# launch from here to begin game 
 def main():
     globalvaribles.gVariables()
     while globalvaribles.playername != "Name":
