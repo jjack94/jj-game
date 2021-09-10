@@ -1,5 +1,6 @@
 import time
 import jjgame
+import globalvaribles
 
 
 def game_over_mid():
@@ -9,7 +10,7 @@ def game_over_mid():
     print("would you like to try from the start of the previous scene again? ")
     option = input(">")
 
-    if option in yes:
+    if option in globalvaribles.yes:
         print("get ready to restart from start of previous scene,", globalvaribles.playername)
         time.sleep(1)
         jjgame.ch_3_4()
