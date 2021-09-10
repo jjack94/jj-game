@@ -22,7 +22,7 @@ suit = 0
 def helpme():
     time.sleep(2)
     assist = ["You may use lower and uppercase inputs for this game, make your decisions carefully as this game is "
-              "unforgiving"]
+              "unforgiving, and if you do not choose A or B the game will decide for you"]
     time.sleep(1)
     for x in assist:
         print(x)
