@@ -11,7 +11,8 @@ yes = ["yes", "y"]
 no = ["no", "n"]
 suit = 0
 
-
+# game chapters with choice options 
+# time sleep is used to allow lines to print slower 
 def greet():
     globalvaribles.playername = input("What is your name?: ")
     time.sleep(2)
