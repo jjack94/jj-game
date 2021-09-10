@@ -1,7 +1,7 @@
 import time
 import jjgame
 
-
+# values for answers and name for game files 
 def gVariables():
     global playername
     global answer_a
@@ -18,7 +18,7 @@ yes = ["yes", "y"]
 no = ["no", "n"]
 suit = 0
 
-
+# help message for player
 def helpme():
     time.sleep(2)
     assist = ["You may use lower and uppercase inputs for this game, make your decisions carefully as this game is "
