@@ -2,7 +2,7 @@ import time
 import jjgame
 import globalvaribles
 
-
+# mid game game over screen that allows suer to restart from mid point of game 
 def game_over_mid():
     time.sleep(3)
     print("YOU DIED")
